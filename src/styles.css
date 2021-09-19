@@ -3,6 +3,8 @@
 body {
     background-color: black;
     color: white !important;
+  
+    
 }
 
 hr {
@@ -11,6 +13,12 @@ hr {
 
 .puntero {
     cursor: pointer;
+}
+
+.caca{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 .img-circle {
@@ -64,4 +72,17 @@ hr {
 
 .fadeIn {
     animation-name: fadeIn;
+}
+
+.table th{
+    padding-left:5rem;
+    padding-right:5rem;
+}
+
+th{
+    color:white;
+}
+
+tr{
+    color:white;
 }

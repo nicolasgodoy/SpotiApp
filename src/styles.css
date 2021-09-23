@@ -15,10 +15,11 @@ hr {
     cursor: pointer;
 }
 
-.caca{
+.Contenedor-Cards{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+    gap:1rem;
+    height: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
 .img-circle {
